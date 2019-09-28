@@ -1,11 +1,19 @@
 <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
-	<%- partial('_common/social', null, {cache: !config.relative_link}) %>
+    <%- partial('_common/social', null, {cache: !config.relative_link}) %>
     <div class="copyright">
-    	<% if(theme.site.copyright) { %>
+        <% if(theme.site.copyright) { %>
         &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
         <% } %>
-        <div class="publishby">
-        	<%= __('copyright.theme_by') %> <a href="https://github.com/cofess" target="_blank"> cofess </a><%= __('copyright.base_on') %> <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        <div class="powered-by">
         </div>
+        <!-- <div class="publishby">
+            Hexo <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        </div> -->
+    </div>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <div> <span >本站总访问量: <span id="busuanzi_value_site_pv"></span>次</span></div>
+    <div> <span >本站访客数: <span id="busuanzi_value_site_uv"></span>人次</span></div>
+    <div class="beian-info">
+        <a href="http://www.miitbeian.gov.cn/">粤ICP备88888888号-8</a>
     </div>
 </footer>
