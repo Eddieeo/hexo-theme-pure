@@ -126,6 +126,18 @@ neat_js:
 npm install hexo-baidu-url-submit --save
 ```
 
+You can configure this plugin in `_config.yml`.
+
+```
+# baidu site Collection
+baidu_url_submit:
+  count: 100
+  host: wudong.tech
+  token: 23GYpxowKnhgVsUM
+  path: baidu_urls.txt
+```
+
+
 ### [hexo-translate-title](https://github.com/cometlj/hexo-translate-title)
 > translate the chinese title of Hexo blog to english words automatially
 
