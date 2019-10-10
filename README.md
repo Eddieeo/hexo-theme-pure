@@ -164,6 +164,7 @@ install
 ```
 npm un hexo-renderer-marked --save
 npm i hexo-renderer-markdown-it-plus --save
+npm i markdown-it-katex --save
 ```
 
 You can configure this plugin in `_config.yml`.

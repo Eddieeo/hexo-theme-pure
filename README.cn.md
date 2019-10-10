@@ -358,6 +358,7 @@ translate_title:
 ```
 npm un hexo-renderer-marked --save
 npm i hexo-renderer-markdown-it-plus --save
+npm i markdown-it-katex --save
 ```
 
 ### 配置
